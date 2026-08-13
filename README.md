@@ -8,9 +8,9 @@ OpenAI、OpenAIの契約主体・関連組織、OpenAI Support、AI-assisted Sup
 
 ## 現在の公開状態
 
-**Bootstrap / 方法論レビュー段階（2026-08-08 JST）**
+**Bootstrap + first public Support evidence（2026-08-13 JST）**
 
-この初期版で公開するのは、監査方法、出典方針、Case索引、時系列の骨格、人物・組織の記録方法です。Supportメール、Support UIのスクリーンショット、PDF、決済資料、アカウント情報を含む生証拠はまだ公開していません。Case単位の事実認定およびFTC文書との要件照合もまだ公開していません。
+監査方法、出典方針、Case索引、時系列、人物・組織の記録方法に加え、Case 10737395に関する最初のpublic-redacted Support PDFとCase別索引を公開しています。生証拠は無差別に公開せず、個人情報・完全性・引用位置をレビューした資料だけを追加します。Case単位のFTC文書との要件照合はまだ公開していません。
 
 | 状態 | 意味 |
 |---|---|
@@ -42,13 +42,27 @@ OpenAI、OpenAIの契約主体・関連組織、OpenAI Support、AI-assisted Sup
 | 09185540 | Agent Mode・有料アクセスに関する連続Caseの一部 | レビュー中 |
 | 09330474 | Agent Mode・Support Specialistへのエスカレーション表示 | レビュー中 |
 | 09899636 | Agent Mode・Support Specialistへのエスカレーション表示 | レビュー中 |
+| 10047260 | refund request。10737395の公開返信内で明示的に参照 | 一部公開確認済み / 全経過レビュー中 |
 | 10546615 | Agent Mode・利用枠、返金または救済経路に関する連続Caseの一部 | レビュー中 |
 | 10730658 | 主題と他Caseとの関係を原資料で確認中 | 未処理 |
+| 10737395 | closure warning、Aira返信、Case 10047260のrefund reviewへの明示的参照 | [公開証拠あり](cases/10737395/README.md) |
 | 10737880 | Agent Mode・利用枠・エスカレーション後の経過 | レビュー中 |
 | 10849106 | 画像編集のinpainting / mask指定に関する問い合わせ | レビュー中 |
 | 12115787 | outage説明、根拠確認要求、説明変更、訂正要求、最終質問への無回答・Case終了との利用者報告 | レビュー中 |
 
 派生Case、Case Number不明の問い合わせ、履歴から消失したCase、メール側にのみ残るCaseは、番号を推測せず別区分で管理します。詳細は [CASES.md](CASES.md) を参照してください。
+
+## 最初の公開Support証拠
+
+Case 10737395について、利用者本人の表示氏名と個人メールアドレスをredactした公開用PDFを追加しています。Support側の業務上の表示、Case Number、日時、本文、Aira / OpenAI Support署名は証拠上重要なため保持しています。
+
+- [Case 10737395](cases/10737395/README.md)
+- [Evidence record](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.md)
+- [Public-redacted PDF](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.public-redacted.pdf)
+
+このPDFから直接確認できる範囲では、2026-08-12にclosure warningが送られ、利用者が返信し、2026-08-13にAira / OpenAI SupportがCase 10737395と表示された返信でCase 10047260のrefund requestのreviewを続けると明示しています。同返信はGoogle Play Order IDを要求すると同時に、既に提供されたconcerns / supporting informationは再送不要と記載しています。
+
+利用者はOrder ID一覧自体もそれ以前に提出済みと報告していますが、この点は今回のPDF単独では確認できないため、対応する原資料が公開・検証されるまで`USER_REPORT` / `REVIEW_PENDING`として分離します。
 
 ## 主要な問題類型
 
@@ -61,6 +75,8 @@ OpenAI、OpenAIの契約主体・関連組織、OpenAI Support、AI-assisted Sup
 - Support UIの履歴、返信欄、Caseアクセス経路の消失
 - 説明変更と正式訂正要求への対応
 - 証拠保全通知を含む問い合わせに対する削除関連Help Center案内
+- Case番号間の継承・参照と、その説明の有無
+- 既提出情報の再提出要求
 - OpenAI公式表示とFTC公式文書の要素別照合
 
 ## 現行の公式情報アンカー
@@ -103,8 +119,8 @@ OpenAI、OpenAI OpCo, LLC、記録に登場する担当者その他の関係者�
 | 日付 (JST) | 更新 |
 |---|---|
 | 2026-08-08 | 公開監査の方法論、出典方針、Case索引、時系列骨格、人物・組織索引を初期作成。生証拠は未公開 |
+| 2026-08-13 | Case 10737395の最初のpublic-redacted Support PDF、Aira索引、Case 10047260への明示的参照、時系列を追加 |
 
 ## English summary
 
-This repository is an independent, user-side public audit archive. The bootstrap release publishes methodology and indexes only. It does not yet publish raw support evidence or case-level legal mappings. Direct observations, user reports, inferences, evaluations, unconfirmed matters, and official sources are recorded separately.
-
+This repository is an independent, user-side public audit archive. The bootstrap methodology and indexes are now accompanied by the first published Support evidence for Case 10737395. The redacted PDF directly documents a closure warning, a user reply, and an Aira / OpenAI Support response labeled Case 10737395 that explicitly says it is continuing review of the refund request for Case 10047260. The user's report that the Google Play Order ID list had already been submitted remains separate pending publication of the supporting source.
