@@ -1,21 +1,17 @@
 # People and Entities / 人物・組織索引
 
-最終確認日: 2026-08-08 JST  
-状態: Bootstrap draft
+最終確認日: 2026-08-13 JST  
+状態: Bootstrap + first public Support evidence
 
 このファイルは、人物・組織の名称、表示上の役割、関連Case、直接確認できる内容、証拠、および確認できない内容を分離します。氏名の掲載は、個別Support Caseへの関与や承認を自動的に意味しません。
 
 ## A. Support personnel directly appearing in evidence
 
-**Bootstrap段階で公開済みのSupport担当者名: なし。**
-
-private資料または利用者提供情報に登場する氏名は、公開用原資料、Case Number、日時、回答内容との対応付けが完了するまで掲載しません。
-
-公開時は次の形式を使います。
-
 | Name | Displayed affiliation | Related Case(s) | Directly documented | Evidence | Not established |
 |---|---|---|---|---|---|
-| （公開前レビュー後に追加） | 原資料の表示どおり | Case Number | 実際の回答・操作 | 公開証拠パス | 権限、内部承認、意思決定責任等 |
+| Aira | OpenAI Support | 10737395; message explicitly references 10047260 | 2026-08-13 06:22の返信に署名。Case 10047260のrefund requestのreviewを続けるためGoogle Play Order IDを求め、既提出のconcerns / supporting informationは再送不要と記載 | [Case 10737395 evidence record](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.md) / [public-redacted PDF](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.public-redacted.pdf) | 雇用主体、権限範囲、内部承認、Case routingの決定主体、個別返信以外の意思決定責任 |
+
+Support担当者名は、公開用原資料、Case Number、日時、回答内容との対応付けが完了したものから追加します。
 
 ## B. OpenAI corporate entities and product / service labels
 
@@ -55,8 +51,8 @@ private資料または利用者提供情報に登場する氏名は、公開用�
 
 - **Displayed affiliation / official title:** Support画面・メール等に表示される運用上の名称
 - **Related Case(s):** Support関連Case
-- **Directly documented:** 公開用原資料はまだ未掲載
-- **Evidence:** レビュー中
+- **Directly documented:** Case 10737395の公開PDFで`Aira / OpenAI Support`署名および`Support <support@openai.com>`表示を確認
+- **Evidence:** [Case 10737395 evidence record](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.md)
 - **Not established:** 独立法人であること、個別担当者の雇用主、個別回答の承認主体
 
 ### ChatGPT
@@ -90,7 +86,7 @@ private資料または利用者提供情報に登場する氏名は、公開用�
 
 - **Displayed affiliation / official title:** Support返信内の表示または自己記述として検証予定のactor label
 - **Related Case(s):** Support関連Case。Case単位の対応付けはレビュー中
-- **Directly documented:** 公開用原資料はまだ未掲載
+- **Directly documented:** Case 10737395の今回の公開PDFだけでは、2026-08-12のclosure warningがAI-generatedであることは確認できない
 - **Evidence:** レビュー中
 - **Not established:** 使用モデル、内部routing、回答承認者、人間による事前確認の有無、独立法人性
 
@@ -100,5 +96,4 @@ Case終了処理、ステータス変更、返信欄の消失、Case履歴の表
 
 ## English summary
 
-No support-agent name is public in the bootstrap. Public corporate and governance entries reproduce only roles shown on current official OpenAI pages. Listing a director or executive does not attribute any support-case knowledge, approval, or responsibility to that person.
-
+Aira is the first Support personnel name added to the public index, based on a published redacted email-thread PDF tied to Case 10737395 and explicitly referencing Case 10047260. Public corporate and governance entries reproduce only roles shown on current official OpenAI pages. Listing a director or executive does not attribute any support-case knowledge, approval, or responsibility to that person.
