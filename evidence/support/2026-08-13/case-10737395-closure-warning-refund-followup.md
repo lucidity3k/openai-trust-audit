@@ -9,12 +9,13 @@ Public evidence: [case-10737395-closure-warning-refund-followup.public-redacted.
 
 - Original uploaded filename: `0813サポート.PDF`
 - Original SHA-256: `9bd3d18cd0b8c816cb4971825f78f033385765a0373ef98b082d343c8cbcbb15`
-- Public-redacted PDF SHA-256: `3153a76488464e7af50f48f746146b7926c2006d82b97dedfe50468798031c08`
+- Public-redacted PDF SHA-256: `b2b38be8aafd2a9bf89a7197545f9a6ffd12c1add975d634f8dc660e732ff662`
 - Original retained outside this public repository; the public copy is a separate redacted derivative.
+- The public PDF is a 55-dpi bilevel raster derivative of the verified redacted copy. This avoids retaining hidden text or recoverable user-identifying text in the public artifact. Searchable quotations and event indexing are preserved in this Markdown record.
 
 ## Redactions in the public copy
 
-The public copy removes the user's displayed personal name and personal email address. The redaction was verified both visually after rendering and by text extraction. The following professional / case-identifying information remains visible because it is material to the support record:
+The public copy removes the user's displayed personal name and personal email address. Redaction was verified by text extraction before rasterization and by visual inspection of the final rendered public PDF. The following professional / case-identifying information remains visible because it is material to the support record:
 
 - `support@openai.com`
 - `Aira`
