@@ -1,12 +1,13 @@
 # Cases / Support Case索引
 
-最終更新: 2026-08-08 JST  
-状態: Bootstrap index
+最終更新: 2026-08-13 JST  
+状態: Bootstrap index + first public Support evidence
 
 ## 読み方
 
 この索引は調査対象を固定するためのものです。Case番号、主題、候補イベントを掲載しても、原資料の公開確認前はCase上の事実認定を完了したことになりません。
 
+- `PUBLIC_VERIFIED`: この公開リポジトリ内の原資料から直接確認済み
 - `REVIEW_PENDING`: private索引、利用者提供情報、候補資料等があるが、公開用原資料との照合前
 - `USER_REPORTED`: 利用者の報告として記録。公開証拠による観測へ置換しない
 - `UNCONFIRMED`: 現時点の資料で確認できない
@@ -37,6 +38,14 @@
 - **Public evidence:** なし
 - **Open questions:** 原文、表示主体、後続返信、回答内容、Case終了状態
 
+### Case 10047260
+
+- **Current subject:** refund request。公開済みCase 10737395のAira返信内で、Case 10047260のrefund requestのreviewを続けると明示されている
+- **Evidence status:** 上記のCase間参照は`PUBLIC_VERIFIED`。返金申立ての全経過・主要争点・過去提出資料は`REVIEW_PENDING` / `USER_REPORTED`
+- **Public evidence:** [Case 10737395 evidence record](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.md)
+- **Direct observation:** 2026-08-13 06:22、Aira / OpenAI SupportはCase 10737395と表示された返信で、Case 10047260のrefund requestのreview継続を明記
+- **Open questions:** Case 10047260の原スレッド、返金申立て全文、保存済み記録確認の有無、事実確認、最終返金判断、10737395とのrouting関係
+
 ### Case 10546615
 
 - **Current subject:** Agent Modeの利用枠、返金または救済経路に関する連続Caseの一部
@@ -52,6 +61,16 @@
 - **Public evidence:** なし
 - **Current public claim:** 調査対象Case番号として登録
 - **Open questions:** 主題、日時、actor、他Caseとの関係、回答・終了状態のすべて
+
+### Case 10737395
+
+- **Current subject:** closure warningと、Case 10047260のrefund reviewを継続すると明記したAira / OpenAI Support返信
+- **Evidence status:** `PUBLIC_VERIFIED` for the published events
+- **Public evidence:** [Case file](cases/10737395/README.md) / [Evidence record](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.md) / [public-redacted PDF](evidence/support/2026-08-13/case-10737395-closure-warning-refund-followup.public-redacted.pdf)
+- **Directly documented sequence:** 2026-08-12 07:04 closure warning → 08:59 user reply `は?` → 2026-08-13 06:22 Aira / OpenAI Support reply labeled Case 10737395
+- **Direct observation:** Aira返信はCase 10047260のrefund requestのreviewを続けるためGoogle Play Order IDを要求し、既に提供されたconcerns / supporting informationは再送不要と明記
+- **User report / review pending:** Google Play Order ID一覧自体も以前に提出済みだったとの利用者報告。今回の公開PDF単独では未確認
+- **Open questions:** 10737395と10047260のrouting理由、Order IDの過去提出原資料、refund outcome、Caseの最終終了状態
 
 ### Case 10737880
 
@@ -110,5 +129,4 @@ UNNUMBERED-YYYYMMDD-NN
 
 ## English summary
 
-The case list is a controlled research index, not a finding ledger. No raw case evidence is public in the bootstrap. Case 12115787 is currently represented only as a user-reported sequence pending exact-source verification and publication review.
-
+The case list is a controlled research index, not a finding ledger. Case 10737395 is the first entry backed by a public-redacted Support PDF in this repository. That evidence directly shows a closure warning, a user reply, and an Aira / OpenAI Support response labeled Case 10737395 that explicitly says it is continuing review of a refund request for Case 10047260. Whether the requested Google Play Order ID had already been submitted is not established by this PDF alone.
